@@ -13,7 +13,7 @@ class Banco:
 
     
     def descripcion(self):
-        return f"El banco {self.name} cuenta con una tasa de interes de {tasaInteres}" 
+        return f"El banco {self.name} cuenta con una tasa de interes de {self.tasaInteres}" 
 
 
     @staticmethod
