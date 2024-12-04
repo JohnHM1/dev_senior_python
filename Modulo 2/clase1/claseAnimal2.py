@@ -10,7 +10,7 @@ class Animal2:
       Animal2.contadorAnimales += 1 # Se usa como contador pues cada vez que se inicialice su suma aumentara.
 
 
-    @classmethod
+    @classmethod                #Decorador para definir un llamado a la clase en simisma y extrar informacion inerente.
     def totalAnimal(cls):
       return f"Tengo {cls.contadorAnimales} animalitos."
 
