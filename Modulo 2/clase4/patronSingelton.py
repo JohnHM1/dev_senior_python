@@ -3,7 +3,7 @@ class SinglentonCreacionInstancia:
     _instancia = None
     
     @classmethod
-    def __new__(cls, args,**kwargs ):
+    def __new__(cls, *args,**kwargs ):
         
 
         if  not cls._instancia:
